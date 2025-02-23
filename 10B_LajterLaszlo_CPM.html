@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hálótervezés - CPM</title>
+
+    <style>
+        .a{
+            width: 560px;
+            height: 793px;
+            border: 1px solid #000;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .header{
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .unselectable{
+            user-select: none;
+        }
+        footer{
+            
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="a unselectable">
+        <div class="header">
+            <p><b>Készítette:</b>Lajter László</p>
+            <p><b>Iskola:</b> Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</p>
+            <p><b>Erre az órára:</b> IKT. projektmunka</p>
+        </div>
+
+        <h1>Hálótervezés - CPM</h1>
+        <p><b>Critical Path Method (CPM):</b> Egy hatékony projektmenedzsment eszköz, amely segít azonosítani a projekt legfontosabb tevékenységeit és azok időbeli összefüggéseit, ezáltal lehetővé téve a hatékony időtervezést és erőforrás-allokációt.</p>
+        <p><b>Kritikus út:</b> Egy olyan út, ami csak azokon a pontokon halad át, ahol a tartalék idő nulla, és az út hossza megegyezik a teljes folyamat hosszával.</p>
+        <p><b>Tevékenység:</b> 1-1 részfeladatot a hálóban tevékenységnek nevezünk, ezért szokták a CPM-hálót tevékenységre orientált hálótervnek is nevezni.
+        <br> Mindig időtartama van.
+        <br> Egyik eseménytől a másikig tart.
+        <br> Jele: &rarr;
+        </p>
+        <p><b>Látszattevékenység:</b> A logikai összefüggést, kapcsolatot fejezi ki, nem igényel időt, erőforrást, nem tevékenység.
+        <br> Jele: &#8674;
+        </p>
+        <p><b>Esemény:</b> A tevékenység kezdő és befejező határát jelölő pontok.
+        <br> Mindig időpontot jelöl.
+        <br> Erőforrásigénye nincs.
+        <br> 2 eseményt 1 tevékenység köthet össze.
+        <br> 1 eseményből 2 vagy több tevékenység indulhat el, 1 eseménybe több tevékenység is érkezhet.
+        <br> Jele: &#9633; / &#9675;
+        </p>
+        <p><b>A hálótervezés néhány szabálya:</b>
+        <br>1 kezdő és végpont
+        <br>Események számozása növekvő
+        <br>Időben összefüggő, irányfolyamatos
+        <br>Hurokmentes
+        </p>
+        
+
+        <footer>
+
+            <span><b>2025.02.22, Balmazújváros</b></span>
+            <span><b>Lajter László</b></span>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
